@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9202917391860932551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6663410122038025776}
+  - component: {fileID: 6991580850728493821}
+  - component: {fileID: 7195614284825885870}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6663410122038025776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202917391860932551}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 650.1603, y: 458.45688, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6991580850728493821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202917391860932551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f149755b2d51ae45a88d635d374a1a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicVolume: 1
+  soundEffectVolume: 1
+  buttonClickSound: {fileID: 8300000, guid: f168e0a5d81a79d428d697acd8eac856, type: 3}
+  menuMusic: {fileID: 8300000, guid: 46c3aa50d97a81f42b948e5efa9a266e, type: 3}
+  gameMusic: {fileID: 8300000, guid: 700040df4a8f6584f85f318c2fcede96, type: 3}
+  postGameMusic: {fileID: 8300000, guid: 244a2df6c4f66384e9a60ca2455c1451, type: 3}
+  creditsMusic: {fileID: 8300000, guid: 6f8853760ebdefc40b49bbd244457be6, type: 3}
+  currentMusic: {fileID: 0}
+  screamSounds:
+  - {fileID: 8300000, guid: 194faef37304c124ab7973e68533556d, type: 3}
+  - {fileID: 8300000, guid: c09a2b5cc0a90b54486d1ad15a430af9, type: 3}
+  - {fileID: 8300000, guid: 79aea69abb1dbd945975c5d8df4fbb8c, type: 3}
+  - {fileID: 8300000, guid: a7ed2ed6e0a9f1b42aba8788350670cc, type: 3}
+  - {fileID: 8300000, guid: 66f33552b073cc34088f509becd49217, type: 3}
+  - {fileID: 8300000, guid: 687a356da2c5a5e48b33dc88b3542c0f, type: 3}
+  - {fileID: 8300000, guid: e2df19f496df1e7498b4bc13eeaba5fd, type: 3}
+  - {fileID: 8300000, guid: 116c7689b67d01042acc306a73428401, type: 3}
+  - {fileID: 8300000, guid: 821a48e8fa479fd46886b129c6016b8e, type: 3}
+  - {fileID: 8300000, guid: 2418fe1c6b050174193492710395e656, type: 3}
+  - {fileID: 8300000, guid: c26d29a15b1bee84db4db16f9cbddce1, type: 3}
+  - {fileID: 8300000, guid: 0411155c3c6c4d4458000210ea2dde89, type: 3}
+  - {fileID: 8300000, guid: b0ded8b4223dfab489a91b460c604641, type: 3}
+  smashSounds:
+  - {fileID: 8300000, guid: a1b8e3223679de841a6efd03d92edf6a, type: 3}
+  - {fileID: 8300000, guid: ad78f9ace7d4d6840ac196f0b6cbe13a, type: 3}
+  - {fileID: 8300000, guid: 3c001e99f00a76d4d9f6fb553b1a6fc1, type: 3}
+  - {fileID: 8300000, guid: c8b69a5d4856c254f905cf207c085ef6, type: 3}
+  - {fileID: 8300000, guid: 0f00723696b77bf4db41d9b45ae785f8, type: 3}
+  - {fileID: 8300000, guid: 4cb351d4976ae3140b7359f3b3d75015, type: 3}
+--- !u!82 &7195614284825885870
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202917391860932551}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
